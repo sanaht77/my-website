@@ -32,8 +32,8 @@ export default function Home() {
       </div>
 
       <div id="links">
-        <a class="zoom" href="projects.jsx">see my projects</a>
-        <a class="zoom" href="/about">learn about me</a>
+        <Link class="zoom" href="/projects">see my projects</Link>
+        <Link class="zoom" href="/about">learn about me</Link>
       </div>
     </div>
   );
