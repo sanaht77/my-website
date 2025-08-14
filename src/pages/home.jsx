@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Typed from "typed.js";
 import "./homeStyles.css";
+import { Link } from "react-router-dom";
 
 export default function Home() {
 
@@ -32,8 +33,8 @@ export default function Home() {
       </div>
 
       <div id="links">
-        <Link class="zoom" href="/projects">see my projects</Link>
-        <Link class="zoom" href="/about">learn about me</Link>
+        <Link className="zoom" to="/projects">see my projects</Link>
+        <Link className="zoom" to="/about">learn about me</Link>
       </div>
     </div>
   );
