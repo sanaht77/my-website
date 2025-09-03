@@ -1,8 +1,8 @@
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import home from "./pages/home";
-import projects from "./pages/projects";
-import about from "./pages/about";
+import Home from "./pages/home.jsx";
+import Projects from "./pages/projects.jsx";
+import About from "./pages/about.jsx";
 
 export default function App() {
   return (
@@ -10,9 +10,9 @@ export default function App() {
 
       <Routes>
 
-        <Route index element={<home />} />
-        <Route path="/projects" element={<projects />} />
-        <Route path="/about" element={<about />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
 
       </Routes>
 

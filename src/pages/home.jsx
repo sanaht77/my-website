@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Typed from "typed.js";
+import { Link } from "react-router-dom";
 import "./homeStyles.css";
 
 export default function Home() {
@@ -24,6 +25,9 @@ export default function Home() {
   }, []);
 
   return (
+
+  <div style={{ position: "relative" }}>
+
     <div className="container">
       <h1 id="title">Hey, I'm Sanah Tatla</h1>
 
@@ -32,9 +36,13 @@ export default function Home() {
       </div>
 
       <div id="links">
-        <Link class="zoom" href="/projects">see my projects</Link>
-        <Link class="zoom" href="/about">learn about me</Link>
+        <Link className="zoom" to="/projects">see my projects</Link>
+        <Link className="zoom" to="/about">learn about me</Link>
+
       </div>
     </div>
+    </div>
+    
   );
+  
 }
