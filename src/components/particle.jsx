@@ -17,7 +17,7 @@ export default function Particle() {
       options={{
         fullScreen: { enable: true, zIndex: 1 },
         particles: {
-          number: { value: 100, density: { enable: true, value_area: 800 } },
+          number: { value: 25, density: { enable: true, value_area: 800 } },
           color: { value: "#281d40ff" },
           shape: { type: "star", options: { sides: 5 } },
           opacity: { value: 0.8 },
