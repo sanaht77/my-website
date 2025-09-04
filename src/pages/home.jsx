@@ -15,7 +15,7 @@ export default function Home() {
         const typed = new Typed(".auto-type", {
         strings: ["Computer Science Student", 
             "Developer", 
-            "something else"],
+            "Woman in STEM"],
         typeSpeed: 75,
         backSpeed: 75,
         loop: true,
@@ -38,9 +38,9 @@ export default function Home() {
       </div>
 
       <div id="links">
-        <Link className="zoom" to="/projects">see my projects</Link>
-        <Link className="zoom" to="/about">learn about me</Link>
-        <Link className="zoom" to="/resume">view my resume</Link>
+        <Link className="zoom" to="/projects">See my projects</Link>
+        <Link className="zoom" to="/about">Learn about me</Link>
+        <Link className="zoom" to="/resume">View my resume</Link>
 
       </div>
     </div>
