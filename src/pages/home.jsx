@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Typed from "typed.js";
 import { Link } from "react-router-dom";
 import "./homeStyles.css";
+import Particle from "../components/particle.jsx";
 
 export default function Home() {
 
@@ -27,6 +28,7 @@ export default function Home() {
   return (
 
   <div style={{ position: "relative" }}>
+    <Particle />
 
     <div className="container">
       <h1 id="title">Hi. I'm Sanah.</h1>
