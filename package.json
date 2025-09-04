@@ -14,7 +14,11 @@
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.8.0",
     "react-tsparticles": "^2.12.2",
+<<<<<<< HEAD
     "tsparticles": "^2.12.0",
+=======
+    "tsparticles": "^3.9.1",
+>>>>>>> 20783901e093a8b7a55dac9b175b5337374a8aa3
     "typed.js": "^2.1.0"
   },
   "devDependencies": {
