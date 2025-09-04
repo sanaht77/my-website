@@ -13,10 +13,10 @@
     justify-content: center;
 }  
 
-h1 {
+h1.about {
     color: black;
 }
 
-p {
+p.about {
     text-align: center;
 }

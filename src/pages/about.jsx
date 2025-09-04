@@ -2,12 +2,12 @@ import "./aboutStyles.css";
 
 export default function About() {
   return (
-    <div className="container">
-      <div className="item">
+    <div className="container about">
+      <div className="item about">
         <h1>About Me</h1>
       </div>
       
-      <div className="item">
+      <div className="item about">
         <p>Hi! I'm Sanah Tatla, a second year computer science student at Simon Fraser University.
         My love for programming began in highschool, when I joined my highschool Vex Robotics team. 
         As a programmer, I worked on position tracking algorihms, driver control, autonomous programming, and 
