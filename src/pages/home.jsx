@@ -13,8 +13,8 @@ export default function Home() {
 
         const typed = new Typed(".auto-type", {
         strings: ["Computer Science Student", 
-            "Something Else", 
-            "Blah Blah Blah"],
+            "Developer", 
+            "something else"],
         typeSpeed: 75,
         backSpeed: 75,
         loop: true,
@@ -29,7 +29,7 @@ export default function Home() {
   <div style={{ position: "relative" }}>
 
     <div className="container">
-      <h1 id="title">Hey, I'm Sanah Tatla</h1>
+      <h1 id="title">Hi. I'm Sanah.</h1>
 
       <div className="subtitle">
         <h2 className="auto-type"></h2>
@@ -38,6 +38,7 @@ export default function Home() {
       <div id="links">
         <Link className="zoom" to="/projects">see my projects</Link>
         <Link className="zoom" to="/about">learn about me</Link>
+        <Link className="zoom" to="/resume">view my resume</Link>
 
       </div>
     </div>
