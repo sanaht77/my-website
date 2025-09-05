@@ -1,11 +1,11 @@
 
-.container {
+.aboutContainer {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-.item {
+.aboutItem {
     flex: 1;
     margin: 8vh;
     display: flex;
@@ -13,10 +13,12 @@
     justify-content: center;
 }  
 
-h1.about {
+
+p {
+    text-align: center;
+}
+
+.aboutTitle {
     color: black;
 }
 
-p.about {
-    text-align: center;
-}
