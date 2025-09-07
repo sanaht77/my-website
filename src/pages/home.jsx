@@ -15,7 +15,7 @@ export default function Home() {
         const typed = new Typed(".auto-type", {
         strings: ["Computer Science Student", 
             "Developer", 
-            "something tbd"],
+            "Intern"],
         typeSpeed: 75,
         backSpeed: 75,
         loop: true,

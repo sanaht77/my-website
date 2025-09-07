@@ -19,7 +19,7 @@ export default function Particle() {
         fullScreen: { enable: true, zIndex: 1 },
         particles: {
           number: { value: 50, density: { enable: true, value_area: 800 } },
-          color: { value: "#ffffff" },
+          color: { value: "#b3265cff" },
           shape: {
             type: "star",
             options: {
@@ -36,7 +36,7 @@ export default function Particle() {
             random: true,
             animation: { enable: false, speed: 40, minimumValue: 0.1, sync: false }
           },
-          links: { enable: true, distance: 150, color: "#ffffff", opacity: 0.2, width: 1 },
+          links: { enable: true, distance: 150, color: "#d4477dff", opacity: 0.2, width: 1 },
           move: {
             enable: true,
             speed: 3,
@@ -63,7 +63,7 @@ export default function Particle() {
         },
         detectRetina: true,
         background: {
-          color: "#17070F",
+          color: "#e7e7e7ff",
           position: "50% 50%",
           repeat: "no-repeat",
           size: "cover"

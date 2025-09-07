@@ -25,8 +25,8 @@
 
 h1{
 
-    font-size: 75px;
-    color: white;
+    font-size: 5rem;
+    color: #d73d9f;
 
 
 }
@@ -34,16 +34,15 @@ h1{
 .typed-cursor {
 
     display:inline;
-    font-size: 40px;
-    color:#826C7F;
+    font-size: 2.2rem;
+    color: #d26aab;
 
 
 }
 
 h2 {
 
-    font-size: 40px;
-    color: #826C7F;
+    font-size: 2.2rem;
 
 }
 
@@ -60,6 +59,7 @@ h2 {
     margin: 0;
     opacity: 0;
     transition: opacity 2s ease;
+    color: #d26aab;
     
 }
 
@@ -91,6 +91,7 @@ h2 {
 
     opacity: 0;
     transition: opacity 2s ease;
+    
 
 }
 
@@ -102,10 +103,10 @@ h2 {
 
 #links a {
 
-    font-size: 25px;
+    font-size: 1.6rem;
     font-weight: 100;
     text-decoration: none;
-    color: white;
+    color: #3C3C3B;
     letter-spacing: 3px;
 
 }
