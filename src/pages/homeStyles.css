@@ -26,7 +26,6 @@
 h1{
 
     font-size: 5rem;
-    color: #d73d9f;
 
 
 }
@@ -59,7 +58,6 @@ h2 {
     margin: 0;
     opacity: 0;
     transition: opacity 2s ease;
-    color: #d26aab;
     
 }
 
@@ -106,7 +104,6 @@ h2 {
     font-size: 1.6rem;
     font-weight: 100;
     text-decoration: none;
-    color: #3C3C3B;
     letter-spacing: 3px;
 
 }

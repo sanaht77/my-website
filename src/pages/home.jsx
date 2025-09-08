@@ -15,7 +15,7 @@ export default function Home() {
         const typed = new Typed(".auto-type", {
         strings: ["Computer Science Student", 
             "Developer", 
-            "Intern"],
+            "Techincal Intern"],
         typeSpeed: 75,
         backSpeed: 75,
         loop: true,
@@ -31,16 +31,16 @@ export default function Home() {
     <Particle />
 
     <div className="container">
-      <h1 id="title">Hi. I'm Sanah.</h1>
+      <h1 id="title" className="header">Hi. I'm Sanah.</h1>
 
       <div className="subtitle">
-        <h2 className="auto-type"></h2>
+        <h2 className="auto-type subheader"></h2>
       </div>
 
       <div id="links">
-        <Link className="zoom" to="/projects">See my projects</Link>
-        <Link className="zoom" to="/about">Learn about me</Link>
-        <Link className="zoom" to="/resume">View my resume</Link>
+        <Link className="zoom body" to="/projects">See my projects</Link>
+        <Link className="zoom body" to="/about">Learn about me</Link>
+        <Link className="zoom body" to="/resume">View my resume</Link>
 
       </div>
     </div>

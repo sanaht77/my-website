@@ -63,7 +63,7 @@ export default function Particle() {
         },
         detectRetina: true,
         background: {
-          color: "#e7e7e7ff",
+          color: "#ffffffff",
           position: "50% 50%",
           repeat: "no-repeat",
           size: "cover"

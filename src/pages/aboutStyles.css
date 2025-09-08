@@ -21,20 +21,18 @@
 .aboutCopy {
     text-align: left;
     font-size: 1.5 rem;
-    color: #3C3C3B;
 
 }
 
 .aboutTitle {
     font-size: 2rem;
-    color: #d73d9f;
+  
 }
 
 .aboutLinks {
     display: flex;
     gap: 2rem;
     justify-content: flex-start;
-    color: #3C3C3B;
 }
 
 .aboutLinks a {

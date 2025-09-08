@@ -20,14 +20,14 @@
   font-style: normal;
 }
 
-.colour1 {
+.header{
     color: #d73d9f;
 }
 
-.colour2 {
+.subheader {
     color: #d26aab;
 }
 
-.colour3 {
+.body {
     color: #3C3C3B;
 }

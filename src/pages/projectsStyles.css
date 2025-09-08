@@ -1,0 +1,48 @@
+.projectsTitle {
+
+    text-align: left;
+    margin: 4rem;
+
+}
+
+.card {
+    border-color: black;
+    border-width: 0.3rem;
+
+}
+
+.cardTitle{
+
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.cardDesc {
+
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.tagCont {
+
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    align-items: center;      
+    justify-content: center;
+
+}
+
+.tag {
+
+    border-radius: 8px;
+    background-color: rgb(231, 192, 225);
+    padding: 0.2rem 0.8rem;
+    text-align: center;
+
+}
