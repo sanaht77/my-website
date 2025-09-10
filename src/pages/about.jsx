@@ -21,8 +21,8 @@ export default function About() {
         </p>
         <div className="aboutLinks body">
           <p>Get in touch:</p>
-           <a href="https://www.google.com" target="_blank" rel="noopener noreferrer"> Linkedin</a>
-           <a href="https://www.google.com" target="_blank" rel="noopener noreferrer"> Github</a>
+           <a href="https://www.linkedin.com/in/sanah-tatla-472b1a222/" target="_blank" rel="noopener noreferrer"> Linkedin</a>
+           <a href="https://github.com/sanaht77" target="_blank" rel="noopener noreferrer"> Github</a>
            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer"> Email</a>
          </div>
        
