@@ -103,7 +103,8 @@ h2 {
 
     font-size: 1.6rem;
     font-weight: 100;
-    text-decoration: none;
+    text-decoration: underline #d73d9f 10%;
+    text-underline-offset: 4px;
     letter-spacing: 3px;
 
 }
