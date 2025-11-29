@@ -8,7 +8,7 @@ export default function About() {
       <div className="aboutItem">
 
         <p className="aboutTitle header">
-          I'm Sanah, a second year computer science student at Simon Fraser University and an intern at Ledgrly AI.
+          I'm Sanah, a second year computer science student at Simon Fraser University.
         </p>
         <p className="aboutCopy body"> I began programming on my high school VEX Robotics team, 
           where I combined technical skills with teamwork to design 
@@ -24,6 +24,7 @@ export default function About() {
            <a href="https://www.linkedin.com/in/sanah-tatla-472b1a222/" target="_blank" rel="noopener noreferrer"> Linkedin</a>
            <a href="https://github.com/sanaht77" target="_blank" rel="noopener noreferrer"> Github</a>
            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer"> Email</a>
+           <a href="https://medium.com/@sanaht77" target="_blank" rel="noopener noreferrer"> Medium</a>
          </div>
        
       </div>
